@@ -1,6 +1,8 @@
 package progression;
 
-public enum CharStats {
+
+
+public enum CharInfo {
     Lvl(0), //Level
     Str(0), //Strenth
     Dex(0), //Dexterity
