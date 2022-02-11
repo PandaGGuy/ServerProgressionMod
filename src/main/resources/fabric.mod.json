@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "ProgressionMod",
+  "id": "progressionmod",
   "version": "${version}",
   "name": "ProgressionMod",
   "description": "Progression Mod ",
@@ -14,7 +14,11 @@
   "license": "MIT",
   "icon": "assets/ProgressionMod/icon.png",
   "environment": "server",
-  "entrypoints": {},
+  "entrypoints": {
+    "main": [
+      "progression.ProgressionMod"
+    ]
+  },
   "mixins": [
     "ProgressionMod.mixins.json"
   ],
